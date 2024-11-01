@@ -1,0 +1,32 @@
+/* Main section classes */
+.tidings-intro {}
+.tidings-cta {}
+.tidings-articles {}
+.tidings-outro {}
+
+/* Article classes */
+.tidings-article-headline{}
+.tidings-article-content{}
+.tidings-article-source {}
+
+.tidings-article {
+	clear: both;
+	margin-bottom: 1em;
+	overflow: hidden;
+}
+
+.tidings-article-image-holder {
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+}
+	.tidings-article-image {
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+
+.tidings-article-content-holder {
+	float: left;
+	width: 67%;
+}
